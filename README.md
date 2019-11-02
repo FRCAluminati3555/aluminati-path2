@@ -7,4 +7,4 @@ Field image from https://github.com/vannaka/Motion_Profile_Generator
 This is based on Team 195's Cyber Path tool.
 
 # Trajectory tool
-This is a GUI motion profile generator that exports the waypoints for use in generating trajectories on the robot using 254's library.
+This is a GUI motion profile generator that exports the waypoints for use in generating trajectories on the robot using 254's library.  This tool requires Java 13.
