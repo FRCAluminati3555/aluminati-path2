@@ -122,7 +122,8 @@ public class FieldPane extends BorderPane {
 			DecimalFormat decimalFormat = new DecimalFormat("#####.##");
 
 			String x = decimalFormat.format(currentTrajectory.getWaypoints().get(i).getTranslation().x());
-			String y = decimalFormat.format(currentTrajectory.getWaypoints().get(i).getTranslation().y());
+			String y = decimalFormat.format(currentTrajectory.getWaypoints().get(i).getTranslation().y()
+					- (robots.get(i).getRobot().getHeight() / 2.0) / Field.ratio);
 			String angle = decimalFormat.format(currentTrajectory.getWaypoints().get(i).getRotation().getDegrees());
 
 			info += "new Pose2d(" + x + ", " + y + ", Rotation2d.fromDegrees(" + angle + "));\n";
