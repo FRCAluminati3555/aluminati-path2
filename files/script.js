@@ -1,10 +1,10 @@
 var waypoints = [];
 var arcArr = [];
 var ctx;
-var width = 1656; //pixels
-var height = 823; //pixels
-var fieldWidth = 652; // in inches
-var fieldHeight = 324; // in inches
+var width = 2509 / 2; //pixels
+var height = 1290 / 2; //pixels
+var fieldWidth = 629.25; // in inches
+var fieldHeight = 323.25; // in inches
 var robotWidth = 32.75; //inches
 var robotHeight = 37.5; //inches
 // var robotWidth = 25.5; //inches wheelbase
