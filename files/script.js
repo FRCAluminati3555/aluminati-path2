@@ -16,9 +16,9 @@ var image;
 var imageFlipped;
 var wto;
 
-var startLeftY = 276;
-var startCenterY = 157;
-var startRightY = 48;
+var startLeftY = 95;
+var startCenterY = 55;
+var startRightY = 27;
 
 var maxSpeed = 120;
 var maxSpeedColor = [0, 255, 0];
@@ -889,7 +889,7 @@ function getDataString() {
 	var isReversed = $("#isReversed").is(':checked');
 	var deg = isReversed ? 180 : 0;
 	var str = `/**
- * Copyright (c) 2019 Team 3555
+ * Copyright (c) 2020 Team 3555
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -910,7 +910,7 @@ function getDataString() {
  * SOFTWARE.
  */
 
-package org.aluminati3555.frc2019.paths;
+package org.aluminati3555.frc2020.paths;
 
 import java.util.ArrayList;
 
